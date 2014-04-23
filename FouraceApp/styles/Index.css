@@ -61,3 +61,24 @@ width:100%;
 .tdWidth{
     width:95%;
 }
+
+.textbox
+{
+    
+ width:150px;
+height:20px;
+overflow: hidden;
+border-radius:0.5em;
+}
+
+
+.button
+{
+    
+ width:60px;
+height:30px;
+overflow: hidden;
+border-radius:0.5em;
+  background:#85888B;
+  
+}
