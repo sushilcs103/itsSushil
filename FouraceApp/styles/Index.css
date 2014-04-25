@@ -73,6 +73,7 @@ border-radius:0.5em;
 }
 
 
+
 .button
 {
     
@@ -82,4 +83,9 @@ overflow: hidden;
 border-radius:0.5em;
   background:#85888B;
   
+}
+.share{
+    position: relative;
+    display: block;;
+    
 }
