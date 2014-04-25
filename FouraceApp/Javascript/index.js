@@ -23,3 +23,9 @@ function youtube()
   var ref = window.open(encodeURI('https://www.youtube.com'), '_blank', 'location=yes');  
     
 }
+
+function sendmail()
+{
+      alert('hi')
+ 
+}
