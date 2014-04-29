@@ -52,6 +52,8 @@
 }
 .tdWidth{
     width:95%;
+    
+    
 }
 
 .textbox
@@ -89,5 +91,16 @@ border-radius:0.5em;
 .group
 {
   margin-top:-2px;  
+    
+}
+
+#downarrow1:hover
+{
+background-color:#00ABEB;
+} 
+
+.textsize{
+    font-size:15px;
+    
     
 }

@@ -18,23 +18,70 @@
 </head>
    
    <script>
-
-       
-  $(document).ready(function(){
+         $(document).ready(function(){
     $("#content").hide();
  
   $("#description").click(function(){
-   
       $("#content").slideToggle("slow");
-     
+ 
 });
       
   });
+   </script> 
     
-</script> 
+    <script>
+         $(document).ready(function(){
+    $("#content1").hide();
  
-     
+  $("#Emphasis").click(function(){
+      $("#content1").slideToggle("slow");
+ 
+});
+      
+  });
+   </script>
     
+    
+     <script>
+         $(document).ready(function(){
+    $("#content2").hide();
+ 
+  $("#Strong").click(function(){
+      $("#content2").slideToggle("slow");
+ 
+});
+      
+  });
+   </script>
+
+    
+     <script>
+         $(document).ready(function(){
+    $("#content3").hide();
+ 
+  $("#Technical").click(function(){
+      $("#content3").slideToggle("slow");
+ 
+});
+      
+  });
+   </script>
+    
+    
+    
+     <script>
+         $(document).ready(function(){
+    $("#content4").hide();
+ 
+  $("#Control").click(function(){
+      $("#content4").slideToggle("slow");
+ 
+});
+      
+  });
+   </script>
+    
+
     <body>
        <center>
 
@@ -57,38 +104,103 @@
                                         
                 </div>
             <div style="width:100%;height:1px;background:#77C9E5"></div>
-  
-           
-                
-                <table >
-                    <tr>
-                      <td>
-                         <img src="Images/Microsoft.jpg" style="width:120px;height:115px">
-                    </td>  
+  				
+             <table style="float:left;width:100%">
+                 <tr>
+                   <td style="font-family:Roboto;font-size:18px;">Why Choose Us</td>
                      
-                        <td style="text-align:left;width:95%;font-family:roboto;padding-top:14px;font-size:90%;">
-                          <p>
-                              
-								Microsoft Registered Partner
-								We are Microsoft Registered Development Partners.
-                                We are ITIL compliant and many of our professionals are security cleared to SC Level giving 
-                                you the comfort that you have a reliable and trusted partner of choice.
-
-                          </p>  
-                        </td>
+                     
+                 </tr>
+                             
+                  <tr>
+                    <td id="Emphasis" style="font-family:Roboto;font-size:14px;padding-top:10px" >
+                       <img src="Images/downarrow.png" style="width:15px;height:15px;" id="downarrow1" />
+                    	Emphasis on Quality 
                         
-                        
-                    </tr>
+                       <p  id="content1">  Quality is paramount to us. We only recruit talented professionals who have educational 
+                      and professional credentials that meet or exceed your requirements. 
+                      We listen to both your needs and industry's needs.     
+                        </p>
+                   </td>  
+                     
                     
-                </table>
-                <hr>
+                      
+                 </tr>
+                 
+           	  
+             
+             	<tr id="Strong" >
+                     
+                     <td style="font-family:Roboto;font-size:14px;">
+                        <img src="Images/downarrow.png" style="width:15px;height:15px;padding-top:10px" id="downarrow1"/>
+                   	  Strong Focus on Clients
+                         
+                         <p id="content2">
+                              We put you first. Our goal is to help you achieving your 
+                      		business objectives with top effectiveness. We are interested 
+                      		in building strong partnership with you in the long-run. 
+                      		We work with you very closely to continually improve our processes to best suit your development needs.  
+                             
+                         </p>
+                         
+                         
+                         
+                     </td>
+                     
+                    
+                     
+                 </tr>
                 
-            		<div style="text-align:left;width:95%;font-family:Roboto;font-size:95%;">
-               
-                <div id="description">Description
+                 <tr style="font-family:Roboto;font-size:14px;">
+                     
+                     <td id="Technical" style="font-family:Roboto;font-size:14px;padding-top:10px">
+                         <img src="Images/downarrow.png" style="width:15px;height:15px;" id="downarrow1"/>
+                   	Technical Expertise   
+                       <p  id="content3">
+                          We have designed our business model to provide the areas of expertise that 
+                    	are most demanded in the industry.  
+                           
+                       </p>  
+                         
+                         
+                     </td>
+                     
+                     
+                     
+                 </tr>
+             		
+                 <tr >
+            		<td id="Control" style="font-family:Roboto;font-size:14px;padding-top:10px">
+                      <img src="Images/downarrow.png" style="width:15px;height:15px;" id="downarrow1"/>
+                   	100% Control, 100% Transparency
+                        
+                        <p id="content4">
+                            
+                           Our dedicated team/support is virtually yours. We set up communication infrastructure so that
+                      	you can talk, text chat and see teams during working hours using commonly available 
+                      	conferencing technologies.   
+                            
+                        </p>
+                    </td>
+                     
                     
-                  	<img src="Images/up.png" style="width:15px;height:15px;" id="downarrow" onclick="downclick()"/>
-                   	<img src="Images/down.png" style="width:15px;height:15px;display:none" id="uparrow" onclick="upclick()"/>    
+                     </tr>
+             
+                </table>
+             
+             <hr>
+            
+             
+             
+             
+             
+           
+             <div style="text-align:left;width:100%;font-family:Roboto;font-size:95%;">
+             
+                <div id="description" style="padding-top:10px">Description
+                    
+                  	 <img src="Images/up.png" style="width:15px;height:15px;" id="downarrow" onclick="downclick()"/>
+                   	<img src="Images/down.png" style="width:15px;height:15px;display:none;" id="uparrow" onclick="upclick()"/>    
                    
                     
                    </div> 
@@ -97,101 +209,94 @@
                   
                   <p>  
                   
-                			Four Ace Infomatics Private Limited works with clients to address their critical business imperatives. 
-                		Through our project model, we industrialize project management, project coordination, 
-               		 agile application development, maintenance and support. Four Ace Infomatics, 
-               		 partners with clients across industries to solve complex business challenges by
-               		 reforming their technology landscape in sync with business strategies through 
-                		business transformation, product innovation and efficient operations, 
-                		leveraging robust business application expertise across business applications, 
-                		functions and technologies.
+                	 When you choose Four Ace Infomatics Private Limited as your IT services, 
+                     consulting and business solutions partner, you will discover what so many 
+                      global enterprises have already discovered—the power of certainty.we are a leader in the global marketplace. Our continued rapid growth is a testament to the certainty our clients experience every day. Building on more than 10 years of experience, we add real value to global organizations through domain expertise plus solutions with proven success in the field and world-class service. It’s how we keep you moving forward.
+					Four Ace Infomatics Private Limited helps customers to do business better leveraging our 
+                      industry-wide experience, deep technology expertise, comprehensive portfolio of services and a vertically aligned business model. Our 55+ dedicated emerging technologies ‘Centers of Excellence’ enable us to harness the latest technology for delivering business capability to our clients.
+					Four Ace Infomatics Private Limited is globally recognized for its innovative approach towards delivering business value and its commitment to sustainability. Today we are a trusted partner of choice for global businesses looking to ‘differentiate at the front’ and ‘standardize at the core’ through technology interventions.
+					In today’s world, organizations will have to rapidly reengineer themselves and be more responsive to changing customer needs. Four Ace Infomatics Private Limited is well positioned to be a partner and co-innovator to businesses in their transformation journey, identify new growth opportunities and facilitate their foray into new sectors and markets.
             
-                  
-              
-                      
                   </p>
               </div>
                 <hr style="width:100%">
                         
                 <table width="100%">
-                   <tr>
-                            <td class="WidthRate">
-                                
-                                <img  src="Images/Business1.PNG" class="logoImg"style="width:30px;height:30px;padding-top:15px;"/>
-                                
-                            </td>
-                       
-                       
-                           <td class="tdWidth">
-                              
-                               <a href="Business.html" style="text-decoration:none;color:#000000" rel="external"><p class="txtStyle">Business Service</p></a>
-                                   
-                               
-                           </td>
-                           <td>
-                               <a href="Business.html"><img src="Images/right.png" style="width:20px;height:20px;padding-top:2px;float:left;color:#575B5F" rel="external"/></a>
-                           </td>
+                     <tr>
                       
-                   </tr>
-                   
-                        <tr>
-                            <td colspan="3">
-                                <div style="width:100%;height:1px;background:#ECECEE"></div>
-                                
-                            </td>
-                            
-                        </tr>
-                            
-                    
-                    
-                    <tr>
-                            <td class="WidthRate">
-                                
-                                <img  src="Images/Cloud.PNG" class="logoImg"style="width:30px;height:30px;padding-top:15px;"/>
-                                
-                            </td>
-                             <td class="tdWidth">
-                              
-                               <a href="CloudServices.html" style="text-decoration:none;color:#000000" rel="external"><p class="txtStyle">Cloud Services</p></a>
-                                   
-                               
+                       <td>
+                             <a href="Business.html" rel="external" style="text-decoration:none;color:#000000" >  <img src="Images/Business1.PNG" style="width:20px;height:20px;padding-top:2px;float:left;color:#575B5F"/></a>
+                           </td>
+                         
+                         
+                           <td class="tdWidth">
+                               <a href="Business.html" rel="external" style="text-decoration:none;color:#000000" >
+                               <p class="txtStyle">
+                                 
+                                  Business Services
+                                </p>
+                              </a>
                            </td>
                            <td>
-                               <a href="CloudServices.html" rel="external"><img src="Images/right.png" style="width:20px;height:20px;padding-top:2px;float:left;color:#575B5F" rel="external"/></a>
+                             <a href="Business.html" rel="external" style="text-decoration:none;color:#000000" >  <img src="Images/nextarrow.png" style="width:20px;height:20px;padding-top:2px;float:left;color:#575B5F"/></a>
                            </td>
-                            
-                        </tr>
-                    <tr>
-                            <td colspan="3">
-                                <div style="width:100%;height:1px;background:#ECECEE"></div>
-                                
-                            </td>
-                            
-                        </tr>
+                       </tr>
+                       <tr>
+                           <td colspan="3">
+                              <div style="width:100%;height:1px;background:#ECECEE"></div> 
+                           </td>
+                       </tr>
+                    
+                    
+                     <tr>
+                      
+                       <td>
+                             <a href="CloudServices.html" rel="external" style="text-decoration:none;color:#000000" >  <img src="Images/Cloud.PNG" style="width:20px;height:20px;padding-top:2px;float:left;color:#575B5F"/></a>
+                           </td>
+                         
+                         
+                           <td class="tdWidth">
+                               <a href="CloudServices.html" rel="external" style="text-decoration:none;color:#000000" >
+                               <p class="txtStyle">
+                                 
+                                  Cloud Services
+                                </p>
+                              </a>
+                           </td>
+                           <td>
+                             <a href="CloudServices.html" rel="external" style="text-decoration:none;color:#000000" >  <img src="Images/nextarrow.png" style="width:20px;height:20px;padding-top:2px;float:left;color:#575B5F"/></a>
+                           </td>
+                       </tr>
+                       <tr>
+                           <td colspan="3">
+                              <div style="width:100%;height:1px;background:#ECECEE"></div> 
+                           </td>
+                       </tr>
                 
                     <tr>
-                            <td class="WidthRate">
-                                <img  src="Images/Trophy.PNG" class="logoImg"style="width:30px;height:30px;padding-top:15px;"/>
-                                
-                            </td>
-                            <td class="tdWidth">
-                              
-                               <a href="TechnologyServices.html" style="text-decoration:none;color:#000000" rel="external"><p class="txtStyle">Technology Services</p></a>
-                                   
-                               
+                      
+                       <td>
+                             <a href="TechnologyServices.html" rel="external" style="text-decoration:none;color:#000000" >  <img src="Images/Trophy.PNG" style="width:20px;height:20px;padding-top:2px;float:left;color:#575B5F"/></a>
+                           </td>
+                         
+                         
+                           <td class="tdWidth">
+                               <a href="TechnologyServices.html" rel="external" style="text-decoration:none;color:#000000" >
+                               <p class="txtStyle">
+                                 
+                                  Technology Services
+                                </p>
+                              </a>
                            </td>
                            <td>
-                               <a href="TechnologyServices.html" rel="external"><img src="Images/right.png" style="width:20px;height:20px;padding-top:2px;float:left;color:#575B5F" rel="external"/></a>
+                             <a href="TechnologyServices.html" rel="external" style="text-decoration:none;color:#000000" >  <img src="Images/nextarrow.png" style="width:20px;height:20px;padding-top:2px;float:left;color:#575B5F"/></a>
                            </td>
-                            
-                        </tr>
-                    <tr>
-                            <td colspan="3">
-                                <div style="width:100%;height:1px;background:#ECECEE"></div>
-                                
-                            </td>
-                            
-                        </tr>
+                       </tr>
+                       <tr>
+                           <td colspan="3">
+                              <div style="width:100%;height:1px;background:#ECECEE"></div> 
+                           </td>
+                       </tr>
                
                 </table>
                   
