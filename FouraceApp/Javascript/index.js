@@ -29,7 +29,17 @@ function sendmail()
       alert('hi')
  
 }
-
+function downclick()
+{
+     $("#downarrow").hide();
+     $("#uparrow").show();
+}
+function upclick()
+{
+     $("#uparrow").hide(); 
+    $("#downarrow").show();
+}
+	
 	
 
 $( document ).bind( 'mobileinit', function(){

@@ -17,6 +17,24 @@
     <script src="Javascript/index.js" type="text/javascript"></script>
 </head>
    
+   <script>
+
+       
+  $(document).ready(function(){
+    $("#content").hide();
+ 
+  $("#description").click(function(){
+   
+      $("#content").slideToggle("slow");
+     
+});
+      
+  });
+    
+</script> 
+ 
+     
+    
     <body>
        <center>
 
@@ -42,7 +60,7 @@
   
            
                 
-                <table>
+                <table >
                     <tr>
                       <td>
                          <img src="Images/Microsoft.jpg" style="width:120px;height:115px">
@@ -66,23 +84,36 @@
                 <hr>
                 
             		<div style="text-align:left;width:95%;font-family:Roboto;font-size:95%;">
-                   <h5>Description:</h5>
-              	<p>  
+               
+                <div id="description">Description
+                    
+                  	<img src="Images/up.png" style="width:15px;height:15px;" id="downarrow" onclick="downclick()"/>
+                   	<img src="Images/down.png" style="width:15px;height:15px;display:none" id="uparrow" onclick="upclick()"/>    
+                   
+                    
+                   </div> 
+                
+              <div id="content">
                   
-                Four Ace Infomatics Private Limited works with clients to address their critical business imperatives. 
-                Through our project model, we industrialize project management, project coordination, 
-                agile application development, maintenance and support. Four Ace Infomatics, 
-                partners with clients across industries to solve complex business challenges by
-                reforming their technology landscape in sync with business strategies through 
-                business transformation, product innovation and efficient operations, 
-                leveraging robust business application expertise across business applications, 
-                functions and technologies.
+                  <p>  
+                  
+                			Four Ace Infomatics Private Limited works with clients to address their critical business imperatives. 
+                		Through our project model, we industrialize project management, project coordination, 
+               		 agile application development, maintenance and support. Four Ace Infomatics, 
+               		 partners with clients across industries to solve complex business challenges by
+               		 reforming their technology landscape in sync with business strategies through 
+                		business transformation, product innovation and efficient operations, 
+                		leveraging robust business application expertise across business applications, 
+                		functions and technologies.
             
                   
-              </p>
-               <hr>
+              
+                      
+                  </p>
+              </div>
+                <hr style="width:100%">
                         
-                <table>
+                <table width="100%">
                    <tr>
                             <td class="WidthRate">
                                 
