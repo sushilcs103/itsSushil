@@ -50,6 +50,14 @@
    padding-left:10px;
    
 }
+.textStyle{
+     width:100%;
+    font-family:Roboto;
+    font-size:14px;
+    font-weight:normal ;
+    color:#000000;
+    
+}
 .tdWidth{
     width:95%;
     
