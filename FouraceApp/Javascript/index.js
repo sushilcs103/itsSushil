@@ -23,7 +23,10 @@ function youtube()
   var ref = window.open(encodeURI('https://www.youtube.com'), '_blank', 'location=yes');  
     
 }
-
+ function fourace()
+{
+   var ref = window.open(encodeURI('http://www.fourace-infomatics.com'), '_blank', 'location=yes'); 
+}
 
 
 function description()
