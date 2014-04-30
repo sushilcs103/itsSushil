@@ -26,20 +26,71 @@ function youtube()
 
 
 
-
- function contentclick()
-    {
-         
-  
-        $("#description").show();
-        $("#content").hide();
-    }
-function descriptionclick()
+function Description()
 {
+    var condition = true;
+if (condition === true) {
+    $('#downarrow').toggle();
+    $("#uparrow").toggle();
+   
+} 
     
-    $("#content").show();
-     $("#description").hide();
+    
 }
+
+
+function Emphasis()
+{
+    var condition = true;
+if (condition === true) {
+    $('#downarrow1').toggle();
+    $("#uparrow1").toggle();
+   
+} 
+    
+    
+}
+
+function strong()
+{
+    var condition = true;
+if (condition === true) {
+    $('#downarrow2').toggle();
+    $("#uparrow2").toggle();
+   
+} 
+    
+    
+}
+
+
+function Technical()
+{
+    var condition = true;
+if (condition === true)
+    
+    {
+    
+    $('#downarrow3').toggle();
+    $("#uparrow3").toggle();
+  
+}
+}
+
+
+function control()
+{
+    var condition = true;
+if (condition === true) {
+    $('#downarrow4').toggle();
+    $("#uparrow4").toggle();
+   
+} 
+    
+    
+}
+
+
 
 
 

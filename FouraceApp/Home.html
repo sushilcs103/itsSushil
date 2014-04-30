@@ -16,16 +16,20 @@
     <script src="scripts/location.js" type="text/javascript"></script>
     <script src="Javascript/index.js" type="text/javascript"></script>
 </head>
-   <!--<script>
-  $(document).ready(function(){
-  $("#content").click(function(){
+    
+    
+    <script>
+         $(document).ready(function(){
     $("#content").hide();
-  });
+ 
   $("#description").click(function(){
-    $("#description").show();
-  });
+      $("#content").slideToggle("slow");
+ 
 });
- </script> -->  
+      
+  });
+   </script> 
+ 
     <script>
          $(document).ready(function(){
     $("#content1").hide();
@@ -36,7 +40,7 @@
 });
       
   });
-   </script>
+   </script> 
     
     
      <script>
@@ -53,6 +57,7 @@
 
     
      <script>
+         
          $(document).ready(function(){
     $("#content3").hide();
  
@@ -115,8 +120,8 @@
                   <tr>
                     <td id="Emphasis" style="font-family:Roboto;font-size:14px;padding-top:10px" >
                        <img src="Images/downarrow.png" style="width:15px;height:15px;" id="downarrow1" />
-                    	Emphasis on Quality 
-                        
+                        <img src="Images/uparrow.png" style="width:15px;height:15px;display:none;" id="uparrow1" />
+                        <div onclick="Emphasis()">Emphasis on Quality</div>   
                        <p  id="content1">  Quality is paramount to us. We only recruit talented professionals who have educational 
                       					and professional credentials that meet or exceed your requirements. 
                      						 We listen to both your needs and industry's needs.     
@@ -135,8 +140,9 @@
              	<tr id="Strong" >
                      
                      <td style="font-family:Roboto;font-size:14px;">
-                        <img src="Images/downarrow.png" style="width:15px;height:15px;padding-top:10px" id="downarrow1"/>
-                   	  Strong Focus on Clients
+                        <img src="Images/downarrow.png" style="width:15px;height:15px;padding-top:10px" id="downarrow2"/>
+                          <img src="Images/uparrow.png" style="width:15px;height:15px;display:none;" id="uparrow2" />
+                   	 <div onclick="strong()">Strong Focus on Clients</div>
                          
                          <p id="content2">
                               We put you first. Our goal is to help you achieving your 
@@ -160,8 +166,9 @@
                  <tr style="font-family:Roboto;font-size:14px;">
                      
                      <td id="Technical" style="font-family:Roboto;font-size:14px;padding-top:10px">
-                         <img src="Images/downarrow.png" style="width:15px;height:15px;" id="downarrow1"/>
-                   	Technical Expertise   
+                         <img src="Images/downarrow.png" style="width:15px;height:15px;" id="downarrow3"/>
+                          <img src="Images/uparrow.png" style="width:15px;height:15px;display:none;" id="uparrow3" />
+                   	<div onclick="Technical()">Technical Expertise</div>   
                        <p  id="content3">
                           We have designed our business model to provide the areas of expertise that 
                     	are most demanded in the industry.  
@@ -182,9 +189,9 @@
              		
                  <tr >
             		<td id="Control" style="font-family:Roboto;font-size:14px;padding-top:10px;padding-bottom:10px;">
-                      <img src="Images/downarrow.png" style="width:15px;height:15px;padding-bottom:-30px;" id="downarrow1"/>
-                        <img src="Images/uparrow.png" style="width:15px;height:15px;padding-bottom:-30px;display:none" id="uparrow1"/>
-                   	100% Control, 100% Transparency
+                      <img src="Images/downarrow.png" style="width:15px;height:15px;padding-bottom:-30px;" id="downarrow4"/>
+                      <img src="Images/uparrow.png" style="width:15px;height:15px;display:none;" id="uparrow4" />
+                   	<div onclick="control()">100% Control, 100% Transparency</div>
                         
                         <p id="content4">
                             
@@ -209,17 +216,15 @@
            
              <div style="text-align:left;width:100%;font-family:Roboto;font-size:95%;">
              
-                <div id="description" onclick="descriptionclick()" style="vertical-align:top;padding-top:5px;">
+                <div id="description"  style="vertical-align:top;padding-top:5px;">
                     
-                  	 <img src="Images/downarrow.png" style="width:15px;height:15px;" />
-                   	   
-                   
+                  	 <img src="Images/downarrow.png" style="width:15px;height:15px;" id="downarrow" />
+                   	 <img src="Images/uparrow.png" style="width:15px;height:15px;display:none;" id="uparrow" />   
+                    	<div onclick="Description()"> Description</div>
                     
-                    
-                    
-                Description</div> 
+               </div> 
                 
-              <div id="content" onclick="contentclick()"style="display:none" ><img src="Images/uparrow.png" style="width:15px;height:15px;padding-top:5px" />Description 
+              <div id="content" >
                   
                   <p>  
                   
