@@ -40,7 +40,7 @@ function descriptionclick()
     $("#content").show();
      $("#description").hide();
 }
-<<<<<<< HEAD
+
 
 function upclick()
 {
@@ -48,8 +48,7 @@ function upclick()
     $("#downarrow").show();
 }
 
-=======
->>>>>>> branch 'master' of https://github.com/sushilcs103/itsSushil.git
+
 
 
     
