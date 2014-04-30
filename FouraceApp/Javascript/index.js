@@ -31,12 +31,13 @@ function downclick()
      $("#downarrow").hide();
      $("#uparrow").show();
 }
+
 function upclick()
 {
      $("#uparrow").hide(); 
     $("#downarrow").show();
 }
-	
+
 
 
     

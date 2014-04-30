@@ -76,6 +76,9 @@
  
   $("#Control").click(function(){
       $("#content4").slideToggle("slow");
+      $('#downarrow1').hide();
+      $('#uparrow1').show();
+      
  
 });
       
@@ -184,6 +187,7 @@
                  <tr >
             		<td id="Control" style="font-family:Roboto;font-size:14px;padding-top:10px;padding-bottom:10px;">
                       <img src="Images/downarrow.png" style="width:15px;height:15px;padding-bottom:-30px;" id="downarrow1"/>
+                        <img src="Images/uparrow.png" style="width:15px;height:15px;padding-bottom:-30px;display:none" id="uparrow1"/>
                    	100% Control, 100% Transparency
                         
                         <p id="content4">
@@ -215,7 +219,9 @@
                    	<img src="Images/uparrow.png" style="width:15px;height:15px;display:none;" id="uparrow" onclick="upclick()"/>    
                    
                     
-                   Description</div> 
+                    <P id="Des" onclick="Descriptionclick()">Description</P>
+                    
+                </div> 
                 
               <div id="content">
                   
@@ -313,6 +319,7 @@
                 </table>
                   
             </div>
+             
             
            
             </div>
