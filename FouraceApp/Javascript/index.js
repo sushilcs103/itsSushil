@@ -26,7 +26,7 @@ function youtube()
 
 
 
-function Description()
+function description()
 {
     var condition = true;
 if (condition === true) {
