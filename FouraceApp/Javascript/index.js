@@ -42,11 +42,6 @@ function descriptionclick()
 }
 
 
-function upclick()
-{
-     $("#uparrow").hide(); 
-    $("#downarrow").show();
-}
 
 
 
