@@ -26,17 +26,20 @@ function youtube()
 
 
 
-function downclick()
+
+ function contentclick()
+    {
+         
+  
+        $("#description").show();
+        $("#content").hide();
+    }
+function descriptionclick()
 {
-     $("#downarrow").hide();
-     $("#uparrow").show();
+    
+    $("#content").show();
+     $("#description").hide();
 }
-function upclick()
-{
-     $("#uparrow").hide(); 
-    $("#downarrow").show();
-}
-	
 
 
     

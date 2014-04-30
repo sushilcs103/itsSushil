@@ -16,20 +16,16 @@
     <script src="scripts/location.js" type="text/javascript"></script>
     <script src="Javascript/index.js" type="text/javascript"></script>
 </head>
-   
-   <script>
-         $(document).ready(function(){
+   <!--<script>
+  $(document).ready(function(){
+  $("#content").click(function(){
     $("#content").hide();
-    
-           
-  $("#description").click(function(){
-      $("#content").slideToggle("slow");
-      
-});
-      
   });
-   </script> 
-    
+  $("#description").click(function(){
+    $("#description").show();
+  });
+});
+ </script> -->  
     <script>
          $(document).ready(function(){
     $("#content1").hide();
@@ -209,15 +205,15 @@
            
              <div style="text-align:left;width:100%;font-family:Roboto;font-size:95%;">
              
-                <div id="description" style="vertical-align:top;padding-top:5px;">
+                <div id="description" onclick="descriptionclick()" style="vertical-align:top;padding-top:5px;">
                     
-                  	 <img src="Images/downarrow.png" style="width:15px;height:15px;" id="downarrow" onclick="downclick()"/>
-                   	<img src="Images/uparrow.png" style="width:15px;height:15px;display:none;" id="uparrow" onclick="upclick()"/>    
+                  	 <img src="Images/downarrow.png" style="width:15px;height:15px;" />
+                   	   
                    
                     
                    Description</div> 
                 
-              <div id="content">
+              <div id="content" onclick="contentclick()"style="display:none" ><img src="Images/uparrow.png" style="width:15px;height:15px;padding-top:5px" />Description 
                   
                   <p>  
                   
