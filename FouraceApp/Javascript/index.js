@@ -26,11 +26,21 @@ function youtube()
 
 
 
-function downclick()
+
+ function contentclick()
+    {
+         
+  
+        $("#description").show();
+        $("#content").hide();
+    }
+function descriptionclick()
 {
-     $("#downarrow").hide();
-     $("#uparrow").show();
+    
+    $("#content").show();
+     $("#description").hide();
 }
+<<<<<<< HEAD
 
 function upclick()
 {
@@ -38,6 +48,8 @@ function upclick()
     $("#downarrow").show();
 }
 
+=======
+>>>>>>> branch 'master' of https://github.com/sushilcs103/itsSushil.git
 
 
     
