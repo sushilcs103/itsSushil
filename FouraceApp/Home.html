@@ -22,7 +22,7 @@
 
        
         <div data-role="page" style="background:white;width:100%;height:100%;float:left;" >
-         <div  style="width:100%;background-color:#FFFFFF">
+         <div  style="width:100%;background-color:#FFFFFF" data-position-fixed="true" data-display="overlay">
                 <div data-role="header" data-position="fixed" class="head1" style="width:100%;height:50px;padding-top:5px;text-shadow:none !important;background:#000000">
                   <a href="index.html" rel="external" style="text-decoration:none;float:left;color:#00ABEA;padding-top:10px" data-role="none"data-mini="true"><img src="Images/backarrow.png"style="padding-top:8px;height:12px;width:12px;background-color:black" />Back</a>
                    <center>
@@ -31,24 +31,21 @@
                    </center>
                     
                </div>
-                <div style="width:100%;height:1px;background:#77C9E5"></div>
-                <!--<div class="navigationheader"></div>
-                <div style="width:100%;height:2px;background:#E53F39"></div>-->
-                <div class="body" style="background:#ffffff;text-align:left;width:100%;font-family:Arial;font-size:80%;">
-                  
-                                        
+                <div style="width:100%;height:2px;background:#77C9E5">
+                    
                 </div>
-            <div style="width:100%;height:1px;background:#77C9E5"></div>
-  		
-             <div style="text-align:left;width:100%;font-family:Roboto;font-size:95%;">
+               
+           
+  		 <div data-role="content" class="content">
+             <div  style="text-align:left;width:100%;font-family:Roboto;font-size:95%;">
              
-                <div id="description"  onclick="description()"class="textStyle" style="vertical-align:top;padding-top:3px;padding-left:3px">
+                <div dismissible=true id="description"  onclick="description()"class="textStyle" style="vertical-align:top;padding-left:3px">
                                       	
-                    	 <h4 style="padding-left:2px">Description</h4>
+                    	 <h4 >Description</h4>
                     
                </div> 
                 
-              <div id="content" style="text-align:left;width:100%;font-family:Roboto;font-size:95%; padding-left:3px" >
+              <div id="content" style="text-align:left;width:100%;font-family:Roboto;font-size:95%;">
                   
                   
                   <p>
@@ -158,7 +155,7 @@
             
            
             </div>
-                        
+                       
       	<div id="page-location-footer" data-role="footer" data-position="fixed" data-id="oneFooter" style="width:100%;height:30px;background:#000000;">
              <p style="font-size:9px;float:Left;color:#3497DA;margin-right:14px;font-family:Roboto;text-shadow:none" >© Four Ace Infomatics Private Limited 2014</p>
      		 <div style="float:right">
@@ -166,13 +163,13 @@
         		 	<a href="www.facebook.com"> <img src="Images/Facebook.png" class="footerLogo" onclick="facebook();" /></a> 
          <a href="www.google.com"> <img src="Images/Google.png" class="footerLogo" onclick="google()" /></a>
          <a href="www.twitter.com"> <img src="Images/Twitter.png" class="footerLogo" onclick="twitter()" /></a> 
-         <a href="www.youtube.com"> <img src="Images/Youtube.png" class="footerLogo" onclick="youtube()" /></a> 
+         <a href="www.youtube.com"> <img src="Images/linkdin.png" class="footerLogo" onclick="linkdin()" /></a> 
           
       		</div>
       
  		</div>
         </div>
-            
+         </div>    
          
             
       
