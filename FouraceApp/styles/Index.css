@@ -12,6 +12,8 @@
 }
 .rows{
     width:50%;
+   
+    
 }
 .logoImg{
     width:50px;
@@ -45,7 +47,7 @@
     width:100%;
     font-family:Roboto;
     font-size:14px;
-    font-weight:normal ;
+    font-weight:bold ;
     color:#000000;
    padding-left:10px;
    
@@ -90,7 +92,9 @@ border-radius:0.5em;
 .group
 {
   margin-top:-2px;  
-    
+  font-weight:bold; 
+     font-size:16px;
+    text-align:Left;
 }
 
 #downarrow1:hover
@@ -113,5 +117,56 @@ background-color:#00ABEB;
 .content
 {
    margin-top:-15px; 
-    margin-left:-12px;
+   margin-left:-12px;
+}
+
+
+#panelFooter {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  background:#999;
+}
+
+.all:hover
+{
+background-color:#E3E3E3;
+ height:20px;    
+} 
+
+.cont
+{
+   margin-top:-15px;
+    font-size:12px;
+    text-align:left;
+    font-weight:bold;
+    
+    
+}
+
+.body
+{
+  margin-top:-25px;
+   padding-left:5px; 
+}
+
+.image{
+    float:left;
+    width:30%;
+    Height:60%;
+    padding-left:5px;
+    
+ }
+
+.txt
+{
+   font-size:14px;
+    font-weight:normal;
+    font-family:ARIAL;
+    
+    
+    
+    
 }
