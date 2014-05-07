@@ -1,7 +1,7 @@
 body
 {
    font-family:Arial;
-    font-size:14px;  
+    font-size:16px;  
     
     
 }
@@ -73,8 +73,8 @@ body
 }
 .txtStyle{
     width:96%;
-    font-family:Roboto;
-    font-size:14px;
+    
+    
     font-weight:bold ;
     color:#000000;
     margin-left:8px;
@@ -120,9 +120,15 @@ border-radius:0.5em;
     background:#ECECEE;
 }
 .tablewidth{
-    width:100%
+    width:100%;
+    margin-top:25px;
 }
-
+.icon{
+    width:20px;
+    height:20px;
+    float:left;
+    padding-right:10px;
+}
 .share{
     position: relative;
     display: block;;
