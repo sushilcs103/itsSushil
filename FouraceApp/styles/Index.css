@@ -1,22 +1,65 @@
-body
+.body
 {
    font-family:Arial;
     font-size:16px;  
     
     
 }
-
-
-
+.page{
+    background:white;
+    width:100%;
+    height:100%;
+    float:left;
+}
+.header{
+    width:100%;
+    height:50px;
+    padding-top:14px;
+    text-shadow:none;
+    background:#000000
+}
+.backarrow{
+    padding-top:20px;
+    height:12px;
+    width:12px;
+    background-color:black;
+}
+.back{
+    text-decoration:none;
+    float:left; 
+    color:#00ABEA;
+    padding-top:10px;
+}
+.headicon{
+    width:30px;
+    height:30px;
+    padding-left:10px;
+    padding-right:4px;
+}
+.headtitle{
+    color:#ffffff;
+    font-weight:bold;
+    font-size:22px;
+    text-decoration:none;
+}
+.contents{
+    width:100%;
+    float:left;
+}
 .heading
 {
   font-family:Arial;
     font-size:16px;   
     font-weight:bold;
-    
+    }
+.pstyle{
+    text-align:left;
+    margin-top:-5px;
 }
-
-
+.pheading{
+    font-size:18px;
+    font-family:arial;
+}
 
 
 
