@@ -2,64 +2,55 @@
 
 <html>
     <head>
-         <meta charset="UTF-8" />
+        <meta charset="UTF-8" />
    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="jquery-mobile/styles/jquery.mobile-1.3.1.min.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="styles/Index.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="jquery-mobile/styles/jquery.mobile-1.3.1.min.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="styles/Index.css"/>
     
-    <script src="cordova.js" type="text/javascript"></script>
-    <script src="jquery-mobile/js/jquery-1.9.1.min.js" type="text/javascript"></script>
-    <script src="jquery-mobile/js/jquery.mobile-1.3.1.min.js" type="text/javascript"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
-			<script src="Javascript/index.js" type="text/javascript"></script>
-    <script src="scripts/login.js" type="text/javascript"></script>
-    <script src="scripts/location.js" type="text/javascript"></script>
+        <script src="cordova.js" type="text/javascript"></script>
+        <script src="jquery-mobile/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+        <script src="jquery-mobile/js/jquery.mobile-1.3.1.min.js" type="text/javascript"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+	    <script src="Javascript/index.js" type="text/javascript"></script>
+        <script src="scripts/login.js" type="text/javascript"></script>
+        <script src="scripts/location.js" type="text/javascript"></script>
         <link href="styles/Index.css" rel="stylesheet" type="css/text">
         <title></title>
     
     </head>
-    
-    
-        
     <body>
         <center>
-           <div data-role="page" style="background:white;width:100%;height:100%;float:left;" > 
-            <div style="width:100%;background:#ffffff">
-                
-               <div  data-role="header" data-position="fixed" style="width:100%;height:50px;padding-top:14px;text-shadow:none !important;background:#000000">
-                      <a href="AboutUs.html" rel="external" style="text-decoration:none;float:left;color:#00ABEA;padding-top:10px" data-role="none"data-mini="true"><img src="Images/backarrow.png"style="padding-top:20px;height:12px;width:12px;background-color:black" />Back</a>
-                    <center><a style="color:#ffffff;font-weight:bold;font-size:22px;text-decoration:none;"href="AboutUs.html" rel="external" ><img src="Images/About.png" style="width:35px;height:35px;padding-left:10px;padding-right:4px"><sup>About Us</sup> </a></center>
+           <div data-role="page" class="page" >
+                <div  data-role="header" data-position="fixed" class="header">
+                      <a href="AboutUs.html" rel="external" class="back" data-role="none"data-mini="true"><img src="Images/backarrow.png" class="backarrow"/>Back</a>
+                    <center><a class="headtitle" href="AboutUs.html" rel="external" ><img src="Images/About.png" class="headicon"><sup>About Us</sup> </a></center>
+                   
+               </div>
+
+                <div class="line">
                     
                 </div>
-                
-                <div style="width:99%;height:2px;background:#77C9E5"></div>
-                <div data-role="content" style="margin-top:-15px;margin-left:2px">
-                
-                    
-                    <div  id="id2" style=" width:100%;text-align:left;margin-left=-30px">
-                    <center> <p class="heading" style="text-align:left;margin-left=-30px;font-weight:bold">Culture</p></center>
-                 
-                   
-                 <p style="font-weight:normal;margin-top:-15px"> 
-                     <p>Four Ace Infomatics Private Limited is committed to our Winning Culture. We aim to achieve sustained, unprecedented growth by delivering enhanced value to customers, employees, shareholders and the communities we operate in. 
-                     <hr>
-                     
-                     
-                            <table style="width:100%">
+                <div data-role="content" class="contents">
+                    <p  class="pstyle"><b class="pheading">Culture</b><br>
+                     <p class="txtspace">Four Ace Infomatics Private Limited is committed to our Winning Culture. We aim to achieve sustained, unprecedented growth by delivering enhanced value to customers, employees, shareholders and the communities we operate in. 
+                     </p>    
+                    </p>
+                    <hr>
+                    <table class="tblspace">
 
                                 <tr >
 
-                                    <td  style="vertical-align:top;width:45%">
+                                    <td  style="vertical-align:top" class="imgwidth">
                                         <p><img src="Images/culture1.jpg"style="float:left;max-width:100%;width:100%;height:auto;"  /></p>
                                     </td>
 
                                     <td style="float:right;vertical-align:top" >
                                         
                                         <P>
-                                            <b class="heading">Transparent and Honest</b><br>                                      
-                                             We believe in dealing with issues candidly, with courage and integrity above all. We are open and transparent in our communications with each other and about business performance.
-                                            
+                                            <b >Transparent and Honest</b><br>                                      
+                                            <p class="txtspace"> We believe in dealing with issues candidly, with courage and integrity above all. We are open and transparent in our communications with each other and about business performance.
+                                           </p> 
                                         </P>
 
                                     </td>
@@ -68,7 +59,7 @@
                                 
                                 <tr>
                                    <td colspan="2">
-                                      <div style="width:100%;height:1px;background:#ECECEE"></div> 
+                                      <div class="lines"></div> 
                                   
                                    </td>
                                 </tr>
@@ -87,9 +78,9 @@
                                     <td style="float:right;vertical-align:top">
 									     
                                         <p > 
-                                            <b class="heading">Honor our Commitments </b><br>
-                                            	We take our commitments to all our stakeholders very seriously and put all our efforts in fulfilling them. We carry out this commitment by providing the highest level of value to our clients through exceptional, responsive, and efficient delivery of services. 
-                                            
+                                            <b>Honor our Commitments </b><br>
+                                            	<p class="txtspace">We take our commitments to all our stakeholders very seriously and put all our efforts in fulfilling them. We carry out this commitment by providing the highest level of value to our clients through exceptional, responsive, and efficient delivery of services. 
+                                            </p>
                                             
                                         </p>
                                         
@@ -98,7 +89,7 @@
                                 </tr>
                                  <tr>
                                    <td colspan="2">
-                                      <div style="width:100%;height:1px;background:#ECECEE"></div> 
+                                      <div class="lines"></div> 
                                   
                                    </td>
                                 </tr>
@@ -115,34 +106,26 @@
                                     <td style="float:right;vertical-align:top">
 									     
                                         <p > 
-                                            <b class="heading">Demand Excellence </b><br>
-                                            	We are result-oriented and foster and demand excellence from ourselves and our teams. We go beyond what we commit to deliver and pursue excellence in everything we do.    </td>
-
+                                            <b >Demand Excellence </b><br>
+                                            <p class="txtspace">	We are result-oriented and foster and demand excellence from ourselves and our teams. We go beyond what we commit to deliver and pursue excellence in everything we do.   
+                                            </p>
+                                         </p>
+                                    </td>
                                 </tr>
-                               </table>
+                    </table>
+                </div> 
+                <div id="page-location-footer" data-role="footer" data-position="fixed" data-id="oneFooter" class="footer">
+                   <p class="copyright">© Four Ace Infomatics Private Limited 2014</p>
+                   <div style="float:right">
+                      <a href="www.fourace-infomatics.com" > <img src="Images/fourace.png"style="height:28px;width:25px;"  onclick="fourace()" /></a>          
+                      <a href="www.facebook.com"> <img src="Images/Facebook.png" class="footerLogo" onclick="facebook();" /></a> 
+                      <a href="www.google.com"> <img src="Images/Google.png" class="footerLogo" onclick="google()" /></a>
+                      <a href="www.twitter.com"> <img src="Images/Twitter.png" class="footerLogo" onclick="twitter()" /></a> 
+                      <a href="www.linkdin.com"> <img src="Images/linkdin.png" class="footerLogo" onclick="linkdin()" /></a>
                     
-                     
-                 </p>
-              
-                    
-                </div>
-                 
-                 
-             </div>
+                   </div>
                 
-               </div> 
-            <div id="page-location-footer" data-role="footer" data-position="fixed" data-id="oneFooter" class="footer">
-                <p class="copyright">© Four Ace Infomatics Private Limited 2014</p>
-               <div style="float:right">
-          <a href="www.fourace-infomatics.com" > <img src="Images/fourace.png"style="height:28px;width:25px;"  onclick="fourace()" /></a>          
-                    	 	<a href="www.facebook.com"> <img src="Images/Facebook.png" class="footerLogo" onclick="facebook();" /></a> 
-         <a href="www.google.com"> <img src="Images/Google.png" class="footerLogo" onclick="google()" /></a>
-         <a href="www.twitter.com"> <img src="Images/Twitter.png" class="footerLogo" onclick="twitter()" /></a> 
-         <a href="www.linkdin.com"> <img src="Images/linkdin.png" class="footerLogo" onclick="linkdin()" /></a>
-                    
                 </div>
-                
-            </div>
            </div>
               
         </center>
