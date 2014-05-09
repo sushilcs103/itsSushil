@@ -56,6 +56,10 @@
   font-family:Arial;
     font-size:16px;   
     font-weight:bold;
+    padding-top:-20px;
+    
+    
+    
     }
 .pstyle{
     text-align:left;
@@ -67,6 +71,7 @@
 }
 .imgwidth{
     width:25%;
+    
     
 }
 .txtspace{
@@ -333,8 +338,11 @@ background-color:#00ABEB;
   transform: scale(1.1);
 }
 
-
-
+.topmargin
+{
+ margin-top:13px;  
+    
+}
 
 
 
