@@ -345,9 +345,16 @@ background-color:#00ABEB;
 }
 
 
-
-
-
+#btnstyle
+{
+  margin-left:30%;
+    margin-top:20px;
+    max-width:60%;
+    height:auto;
+    
+    
+    
+}
 
 
 
