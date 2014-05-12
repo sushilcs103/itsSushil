@@ -347,10 +347,11 @@ background-color:#00ABEB;
 
 #btnstyle
 {
-  margin-left:30%;
-    margin-top:20px;
+  
+    margin-top:-12%;
     max-width:60%;
     height:auto;
+    float:right;
     
     
     
